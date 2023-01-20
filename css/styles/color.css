@@ -1,0 +1,50 @@
+.colormode-white {
+    background-color: #cad9e5;
+    color: #1d2a35;
+}
+
+body.colormode-white .time-content {
+    background-color: white;
+}
+
+body.colormode-white .card-content {
+    background-color: #FFDDC9;
+}
+
+body.colormode-white .card-title {
+    background-color: #FFDEF9;
+}
+
+body.colormode-white #about-me ul li {
+    border-bottom: 1px solid #aaaaaa;
+}
+
+body.colormode-white #contact .card-content ul li {
+    border-bottom: 1px solid #aaaaaa;
+}
+/*======================================================================================================*/
+
+.colormode-black {
+    background-color: #1d2a35;
+    color: beige;
+}
+
+body.colormode-black .card-content {
+    background-color: #303030;
+}
+
+body.colormode-black .card-title {
+    background-color: #191919
+}
+
+body.colormode-black .time-content {
+    background-color: #404040;
+}
+
+body.colormode-black #about-me ul li {
+    border-bottom: 1px solid #444242;
+}
+
+body.colormode-black #contact .card-content ul li {
+    border-bottom: 1px solid #444242;
+}

@@ -1,0 +1,101 @@
+head {
+    margin: 0px;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#kawaii-logo {
+    background-image: url("../pic/kawaiicat.png");
+    background-size: contain;
+    width: 20%;
+    min-width: 40px;
+    min-height: 40px;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    align-self: center;
+
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 400%;
+    }
+
+    h3 {
+        font-size: 300%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 350%;
+    }
+
+    h3 {
+        font-size: 250%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 300%;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 250%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 200%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 150%;
+    }
+
+    h3 {
+        font-size: 50%;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 100%;
+    }
+
+    h3 {
+        font-size: 25%;
+    }
+}

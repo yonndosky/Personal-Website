@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk">
+  <title>四度小窩</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/body.css" />
+
+  <link rel="stylesheet" class="styles" href="css/styles/color.css" />
+  <link rel="stylesheet" class="buttons" href="css/buttons/switch.css" />
+  <link rel="stylesheet" class="buttons" href="css/buttons/floatingbutton.css" />
+  <link rel="stylesheet" class="buttons" href="css/buttons/skillbar.css" />
+
+  <link rel="stylesheet" class="sections" href="css/sections/main/section.css" />
+  <link rel="stylesheet" class="sections" href="css/sections/keyword.css" />
+  <link rel="stylesheet" class="sections" href="css/sections/about_me.css" />
+  <link rel="stylesheet" class="sections" href="css/sections/summary.css" />
+  <link rel="stylesheet" class="sections" href="css/sections/working_experience.css" />
+  <link rel="stylesheet" class="sections" href="css/sections/portfolio.css" />
+  <link rel="stylesheet" class="sections" href="css/sections/simple_introduce.css" />
+  <link rel="stylesheet" class="sections" href="css/sections/contact.css" />
+
+  <link rel="stylesheet" class="widget" href="css/widgets/timeline.css" />
+  <link rel="stylesheet" class="widget" href="css/widgets/card.css" />
+
+  <link rel="stylesheet" class="thximport" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <script defer src="program/main.dart.js"></script>
+</head>
+
+<body class="colormode-black" id="body">
+  <section id="left-floatingbuttons">
+    <button onclick="" class="left-floatingbutton round right-panel" id="fabout_me">關於我</button>
+    <button class="left-floatingbutton round right-panel" id="fsummary">自傳</button>
+    <button class="left-floatingbutton round right-panel" id="fportfolio">個人資訊</button>
+    <button class="left-floatingbutton round right-panel" id="working_experience">工作經驗</button>
+    <button class="left-floatingbutton round right-panel" id="fcontact">聯絡方式</button>
+  </section>
+  <section id="yonndo-title">
+    <section class="" id="yonndo">
+      <div id="kawaii-logo"></div>
+      <h1>歡迎來到四度小窩</h1>
+    </section>
+    <section class="" id="text-switch">
+      <h3 style=>顏色模式</h3>
+      <label class="switch">
+        <input type="checkbox" id="colormode-switch">
+        <span class="slider round"></span>
+      </label>
+    </section>
+  </section>
+  <section class="card" id="simple-introduce">
+  </section>
+  <section class="card" id="about-me">
+    <div class="card-title">關於我</div>
+    <section class="card-content" id="about-me-content">
+      <ul>
+        <li>
+          <label>中文姓名</label>
+          <span id="chinese-name"></span>
+        </li>
+        <li>
+          <label>英文姓名</label>
+          <span id="english-name"></span>
+        </li>
+        <li>
+          <label>性別</label>
+          <span id="sex"></span>
+        </li>
+        <li>
+          <label>生日</label>
+          <span id="birthday"></span>
+        </li>
+        <li>
+          <label>出生地</label>
+          <span id="place-of-birth"></span>
+        </li>
+        <li>
+          <label>地址</label>
+          <span id="address"></span>
+        </li>
+        <li>
+          <label>宗教</label>
+          <span id="religion"></span>
+        </li>
+      </ul>
+      <img id="self-picture" src="pic/selfpic.jpg" alt="個人照">
+    </section>
+  </section>
+  <section class="card" id="summary">
+    <div class="card-title">自傳</div>
+    <div class="card-content">
+      大家好!<br>
+      我喜歡創造新事物，喜歡解決問題，面對失敗總思考著如何用不同的方法解決問題。<br>
+      對新事物抱持著好奇與讚嘆，一但開始就會竭盡所能做到最好。<br>
+      活潑不怕生的個性，讓我在團體中擁有很好的號召力與渲染力，常扮演組長角色，喜歡和不同領域的人交流分享，激盪出不一樣的火花。<br>
+      大學在指導教授的推薦下，開始了對於程式語言的探索，激發我對程式設計的熱情，擁有豐富查詢資料及將自己所學與人分享的經歷，樂於研究各個應用程式版面，參考不同程式的邏輯思維，並能以未來導向做出最佳的決策。<br>
+      目前仍就讀於龍華科技大學資訊網路工程系，在未來希望能夠協助品牌打造優美的使用者介面，並持續為自己累積更多Know-how，打磨自己成為更具備大局觀的成熟軟體工程師！<br>
+    </div>
+  </section>
+
+  <section class="card" id="portfolio">
+    <div class="card-title">個人資訊</div>
+    <section class="card-content">
+      <div id="skills">
+        <div class="part-title">programming skills</div>
+        <div class="skillbar clearfix" id="dart" data-percent="80%">
+          <div class="skillbar-title">
+            <span>dart</span>
+          </div>
+          <div class="skillbar-bar" style="width: 80%;"></div>
+          <div class="skill-bar-percent">80%</div>
+        </div>
+        <div class="skillbar clearfix" id="python" data-percent="60%">
+          <div class="skillbar-title">
+            <span>python</span>
+          </div>
+          <div class="skillbar-bar" style="width: 60%;"></div>
+          <div class="skill-bar-percent">60%</div>
+        </div>
+        <div class="part-title">designs skills</div>
+        <div class="skillbar clearfix" id="photoshop" data-percent="40%">
+          <div class="skillbar-title">
+            <span>photoshop</span>
+          </div>
+          <div class="skillbar-bar" style="width: 40%;"></div>
+          <div class="skill-bar-percent">40%</div>
+        </div>
+        <div class="part-title">office skills</div>
+        <div class="skillbar clearfix" id="msword" data-percent="60%">
+          <div class="skillbar-title">
+            <span>MS Word</span>
+          </div>
+          <div class="skillbar-bar" style="width: 60%;"></div>
+          <div class="skill-bar-percent">60%</div>
+        </div>
+        <div class="skillbar clearfix" id="msexcel" data-percent="70%">
+          <div class="skillbar-title">
+            <span>MS Excel</span>
+          </div>
+          <div class="skillbar-bar" style="width: 70%;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div>
+        <div class="skillbar clearfix" id="power-point" data-percent="70%">
+          <div class="skillbar-title">
+            <span>power point</span>
+          </div>
+          <div class="skillbar-bar" style="width: 70%;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div>
+        <div class="part-title">language skills</div>
+        <div class="skillbar clearfix" id="chinese" data-percent="95%">
+          <div class="skillbar-title">
+            <span>chinese</span>
+          </div>
+          <div class="skillbar-bar" style="width: 95%;"></div>
+          <div class="skill-bar-percent">95%</div>
+        </div>
+        <div class="skillbar clearfix" id="japanese" data-percent="50%">
+          <div class="skillbar-title">
+            <span>japanese</span>
+          </div>
+          <div class="skillbar-bar" style="width: 50%;"></div>
+          <div class="skill-bar-percent">50%</div>
+        </div>
+        <div class="skillbar clearfix" id="english" data-percent="15%">
+          <div class="skillbar-title">
+            <span>english</span>
+          </div>
+          <div class="skillbar-bar" style="width: 15%;"></div>
+          <div class="skill-bar-percent">15%</div>
+        </div>
+        <div class="skillbar clearfix" id="vietnamese" data-percent="5%">
+          <div class="skillbar-title">
+            <span>vietnamese</span>
+          </div>
+          <div class="skillbar-bar" style="width: 5%;"></div>
+          <div class="skill-bar-percent">5%</div>
+        </div>
+      </div>
+      <div id="collections">
+        <div class="part-title">證照</div>
+        <div style="position: relative; left: 8px;">日本語能力認證(N3)</div>
+        <div style="position: relative; left: 8px;">TOIEC(375)</div>
+        <div style="position: relative; left: 8px;">物聯網應用工程師-初級</div>
+        <div style="position: relative; left: 8px;">Microsoft Technology Associate:Networking Fundamentals</div>
+        <div class="part-title">專案與、作品集與比賽</div>
+        <div style="position: relative; left: 8px;">108學年度全國高級中等學校工業電子 優勝第22名</div>
+        <div class="part-title">學歷</div>
+        <div style="position: relative; left: 8px;">龍潭高級中等學校</div>
+      </div>
+    </section>
+  </section>
+
+  <section class="card" id="working-experience">
+    <div class="card-title">工作經驗</div>
+    <div class="card-content timeline">
+      <div class="time-container timeline-left">
+        <div class="time-content">
+          <h2>2023</h2>
+          <p>職業軍人服役完畢</p>
+        </div>
+      </div>
+      <div class="time-container timeline-right">
+        <div class="time-content">
+          <h2>2023~2020</h2>
+          <p>龍華資訊網路工程系工讀</p>
+          <p>文書處理/協助同學</p>
+        </div>
+      </div>
+      <div class="time-container timeline-left">
+        <div class="time-content">
+          <h2>2021~2019</h2>
+          <p>夜市擺攤</p>
+          <p>與客戶溝通能力</p>
+        </div>
+      </div>
+      <div class="time-container timeline-right">
+        <div class="time-content">
+          <h2>2019~2017</h2>
+          <p>甘蔗工廠工作</p>
+          <p>體力活</p>
+        </div>
+      </div>
+      <div class="time-container timeline-left">
+        <div class="time-content">
+          <h2>2017~2015</h2>
+          <p>每個暑假與農夫種田</p>
+          <p>工作初探/磨練毅力</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="card" id="working-experience-feel">
+    <div class="card-title">工作心得</div>
+    <div class="card-content">
+      在這些工作中，雖然大部分都與科技產業不相關，但也磨練出了對於工作的態度與社交技巧。<br>
+      這些經驗在未來工作中都有幫助，其中覺得最有趣的工作應該就是<b>在夜市擺攤</b>的時候了，
+      在這個工作不僅是要販賣產品那麼簡單，還得靠氣勢叫賣、想辦法讓客人變成常客、用什麼手段能吸引顧客...等，
+      這其實是一個很大的蛻變。
+    </div>
+  </section>
+  <section class="card" id="contact">
+    <div class="card-title">聯繫方式</div>
+    <div class="card-content">
+      <div id="contact-way">
+        <div class="part-title">聯繫管道</div>
+        <ul>
+          <li>
+            <label>電子信箱</label>
+            <span id="email"></span>
+          </li>
+          <li>
+            <label>電話號碼</label>
+            <span id="phone-number"></span>
+          </li>
+          <li>
+            <label>網站</label>
+            <span id="web"></span>
+          </li>
+          <li>
+            <label>Line</label>
+            <span id="line"></span>
+          </li>
+        </ul>
+
+      </div>
+      <div id="contact-intstant">
+        <div class="part-title">直接留言</div>
+        <div for="text">你的名字</div>
+        <input type="text" class="contact-intstant" id="mailto-name" required minlength="2" maxlength="8" size="10"
+          placeholder="Your name...">
+        <div for="email">你的信箱</div>
+        <input type="email" class="contact-intstant" id="mailto-email" required placeholder="Your email...">
+        <div for="text">訊息</div>
+        <textarea type="text" class="contact-intstant" id="mailto-message" required rows="10"
+          placeholder="Message..."></textarea>
+
+        <div id="mailto-button">發送訊息</div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>© 陳永勳</p>
+  </footer>
+</body>
+
+</html>

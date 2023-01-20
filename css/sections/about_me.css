@@ -1,0 +1,175 @@
+#about-me-content {
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-me ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#about-me ul {
+    width: 85%;
+}
+
+#about-me ul li span {
+    font-size: 1.2rem;
+    max-width: 70%;
+    overflow: hidden;
+}
+
+#about-me ul li label {
+    width: 15%;
+    margin-bottom: 5px;
+}
+
+#self-picture {
+    aspect-ratio: 1050/1380;
+    height: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+
+    #about-me ul li label {
+        font-size: 1.2rem;
+    }
+
+    #about-me ul li span {
+        font-size: 1.2rem;
+    }
+
+    #self-picture {
+        max-width: 15%;
+    }
+
+    #about-me-content {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #about-me ul li label {
+        font-size: 1.2rem;
+    }
+
+    #about-me ul li span {
+        font-size: 1.2rem;
+    }
+
+    #self-picture {
+        max-width: 15%;
+    }
+
+    #about-me-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    #about-me ul li label {
+        font-size: 1.2rem;
+    }
+
+    #about-me ul li span {
+        font-size: 1.2rem;
+    }
+
+    #self-picture {
+        max-width: 15%;
+    }
+
+    #about-me-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #about-me ul li label {
+        font-size: 1.6rem;
+    }
+
+    #about-me ul li span {
+        font-size: 1.6rem;
+    }
+
+    #self-picture {
+        display: none;
+        max-width: 40%;
+        align-self: center;
+    }
+
+    #about-me-content {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #about-me ul li label {
+        font-size: 1.2rem;
+    }
+
+    #about-me ul li span {
+        font-size: 1.2rem;
+    }
+
+    #self-picture {
+        display: none;
+        max-width: 40%;
+        align-self: center;
+    }
+
+    #about-me-content {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #about-me ul li label {
+        font-size: 1rem;
+    }
+
+    #about-me ul li span {
+        font-size: 1rem;
+    }
+
+    #self-picture {
+        display: none;
+        max-width: 40%;
+        align-self: center;
+    }
+
+    #about-me-content {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    #about-me ul li label {
+        font-size: 0.6rem;
+    }
+
+    #about-me ul li span {
+        font-size: 0.6rem;
+    }
+
+    #self-picture {
+        display: none;
+        max-width: 40%;
+        align-self: center;
+    }
+
+    #about-me-content {
+        flex-direction: column-reverse;
+    }
+}

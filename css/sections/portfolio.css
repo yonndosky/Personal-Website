@@ -1,0 +1,159 @@
+#portfolio #card-title {
+    background-color: rgb(80, 80, 80);
+    box-sizing: border-box;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+#portfolio .part-title {
+    width: 100%;
+    text-transform: uppercase;
+    float: left;
+}
+
+#portfolio .card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio section #skills {
+    margin: 0% 1% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio section #collections {
+    margin: 0% 1% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+
+    #portfolio .part-title {
+        font-size: 2.2rem;
+    }
+
+    #portfolio section #skills {
+        width: 49%;
+    }
+
+    #portfolio section #collections {
+        width: 49%;
+    }
+
+    #portfolio .card-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #portfolio .part-title {
+        font-size: 2.2rem;
+    }
+
+    #portfolio section #skills {
+        width: 49%;
+    }
+
+    #portfolio section #collections {
+        width: 49%;
+    }
+
+    #portfolio .card-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #portfolio .part-title {
+        font-size: 2.2rem;
+    }
+
+    #portfolio section #skills {
+        width: 49%;
+    }
+
+    #portfolio section #collections {
+        width: 49%;
+    }
+
+    #portfolio .card-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio .part-title {
+        font-size: 1.8rem;
+    }
+
+    #portfolio section #skills {
+        width: 49%;
+    }
+
+    #portfolio section #collections {
+        width: 49%;
+    }
+
+    #portfolio .card-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #portfolio .part-title {
+        font-size: 1.6rem;
+    }
+
+    #portfolio section #skills {
+        width: 49%;
+    }
+
+    #portfolio section #collections {
+        width: 49%;
+    }
+
+    #portfolio .card-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #portfolio .part-title {
+        font-size: 2.2rem;
+    }
+
+    #portfolio section #skills {
+        width: 90%;
+    }
+
+    #portfolio section #collections {
+        width: 90%;
+    }
+
+    #portfolio .card-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #portfolio .part-title {
+        font-size: 2rem;
+    }
+
+    #portfolio section #skills {
+        width: 90%;
+    }
+
+    #portfolio section #collections {
+        width: 90%;
+    }
+
+    #portfolio .card-content {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,81 @@
+.left-floatingbutton {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 0% 0% 40%;
+  overflow: none;
+  animation: pulse 3s infinite;
+  background-color: transparent;
+  color: transparent;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    opacity: .9;
+  }
+
+  to {
+    transform: scale(1.1);
+    opacity: .6;
+  }
+}
+
+.left-floatingbutton.round {
+  border-radius: 100%;
+  border-color: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+  .left-floatingbutton {
+    height: 80px;
+    width: 80px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .left-floatingbutton {
+    height:65px;
+    width: 65px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .left-floatingbutton {
+    height: 50px;
+    width: 50px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-floatingbutton {
+    height: 40px;
+    width: 40px;
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left-floatingbutton {
+    height: 40px;
+    width: 40px;
+    font-size: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .left-floatingbutton {
+    height: 40px;
+    width: 40px;
+    font-size: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .left-floatingbutton {
+    display: none;
+  }
+}
