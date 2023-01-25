@@ -9,10 +9,10 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+
 }
 
-#mailto-button
-{
+#contact-intstant-submit {
     border-radius: 5px;
     color: #000;
     background-color: gold;
@@ -20,6 +20,7 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 

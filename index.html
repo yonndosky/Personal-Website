@@ -29,7 +29,8 @@
   <link rel="stylesheet" class="widget" href="css/widgets/timeline.css" />
   <link rel="stylesheet" class="widget" href="css/widgets/card.css" />
 
-  <link rel="stylesheet" class="thximport" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" class="thximport"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <script defer src="program/main.dart.js"></script>
 </head>
@@ -105,6 +106,14 @@
       活潑不怕生的個性，讓我在團體中擁有很好的號召力與渲染力，常扮演組長角色，喜歡和不同領域的人交流分享，激盪出不一樣的火花。<br>
       大學在指導教授的推薦下，開始了對於程式語言的探索，激發我對程式設計的熱情，擁有豐富查詢資料及將自己所學與人分享的經歷，樂於研究各個應用程式版面，參考不同程式的邏輯思維，並能以未來導向做出最佳的決策。<br>
       目前仍就讀於龍華科技大學資訊網路工程系，在未來希望能夠協助品牌打造優美的使用者介面，並持續為自己累積更多Know-how，打磨自己成為更具備大局觀的成熟軟體工程師！<br>
+    </div>
+  </section>
+
+  <section class="card" id="dream">
+    <div class="card-title">願景</div>
+    <div class="card-content">
+      在不久的將來，無論如何我都匯到日本闖蕩一次，因為對於日本的職人精神非常的憧憬，所以也想讓自己磨練成一個職人，除此之外也很喜歡他們的團隊的相處模式，就像是我有看過一本書叫做頂尖團隊的帶人心法: ANA打造工作默契的35個訓練訣竅
+      ，假設我身處在ANA這家航空公司之下，在剛進入公司的時候會有人帶領的情況下，遇到不懂的也可以問問前輩的意見，前輩也可能會回饋一定的問題，在我每天的累積下變成別人的前輩，這個循環讓我非常的喜歡；
     </div>
   </section>
 
@@ -241,7 +250,7 @@
     </div>
   </section>
 
-  <section class="card" id="working-experience-feel">
+  <section class="card" id="working-experience-share">
     <div class="card-title">工作心得</div>
     <div class="card-content">
       在這些工作中，雖然大部分都與科技產業不相關，但也磨練出了對於工作的態度與社交技巧。<br>
@@ -277,24 +286,28 @@
 
       </div>
       <div id="contact-intstant">
-        <div class="part-title">直接留言</div>
-        <div for="text">你的名字</div>
-        <input type="text" class="contact-intstant" id="mailto-name" required minlength="2" maxlength="8" size="10"
-          placeholder="Your name...">
-        <div for="email">你的信箱</div>
-        <input type="email" class="contact-intstant" id="mailto-email" required placeholder="Your email...">
-        <div for="text">訊息</div>
-        <textarea type="text" class="contact-intstant" id="mailto-message" required rows="10"
-          placeholder="Message..."></textarea>
-
-        <div id="mailto-button">發送訊息</div>
+        <form target="_self" action="/index.html" id="testform" style="margin-bottom: 2%;">
+          <fieldset>
+            <legend>回饋:</legend>
+            <label for="uname">姓名:</label>
+            <input type="text" id="uname" name="uname" required style="padding: 0% 10% 0%;"><br><br>
+            <label for="email">信箱:</label>
+            <input type="email" id="email" name="uemail" required style="padding: 0% 10% 0%;"><br><br>
+            <label for="email">留言:</label>
+            <textarea type="text" class="contact-intstant" id="umessage" name="umessage" required rows="10"
+              placeholder="內容..."></textarea>
+            <input type="submit" id="contact-intstant-submit">
+          </fieldset>
+        </form>
       </div>
     </div>
   </section>
-  
+
   <footer>
     <p>© 陳永勳</p>
   </footer>
+
+  <script type="module" src="./program/contact.js"></script>
 </body>
 
 </html>
