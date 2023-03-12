@@ -22,6 +22,11 @@ body.colormode-white #about-me ul li {
 body.colormode-white #contact .card-content ul li {
     border-bottom: 1px solid #aaaaaa;
 }
+
+body.colormode-white .left-floatingbutton {
+    color: black;
+}
+
 /*======================================================================================================*/
 
 .colormode-black {
@@ -47,4 +52,8 @@ body.colormode-black #about-me ul li {
 
 body.colormode-black #contact .card-content ul li {
     border-bottom: 1px solid #444242;
+}
+
+body.colormode-black .left-floatingbutton {
+    color: wheat;
 }

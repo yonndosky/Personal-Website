@@ -69,7 +69,7 @@ function updeteData(sRoot, email, name, message) {
     // Write the new post's data simultaneously in the posts list and the user's post list.
     const updates = {};
     email = email.replace('.','_dot_');
-    updates[sRoot + email + '__random___' + newPostKey] = postData;
+    updates[sRoot + email + '___random___' + newPostKey] = postData;
 
     return update(ref(db), updates);
 }
