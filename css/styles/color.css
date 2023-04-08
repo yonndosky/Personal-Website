@@ -23,7 +23,7 @@ body.colormode-white #contact .card-content ul li {
     border-bottom: 1px solid #aaaaaa;
 }
 
-body.colormode-white .left-floatingbutton {
+body.colormode-white .float-bar-button {
     color: black;
 }
 
@@ -54,6 +54,6 @@ body.colormode-black #contact .card-content ul li {
     border-bottom: 1px solid #444242;
 }
 
-body.colormode-black .left-floatingbutton {
+body.colormode-black .float-bar-button {
     color: wheat;
 }
