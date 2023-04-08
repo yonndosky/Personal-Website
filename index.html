@@ -7,313 +7,155 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk">
-  <title>四度小窩</title>
-
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/body.css" />
-
-  <link rel="stylesheet" class="styles" href="css/styles/color.css" />
-  <link rel="stylesheet" class="buttons" href="css/buttons/switch.css" />
-  <link rel="stylesheet" class="buttons" href="css/buttons/floatingbutton.css" />
-  <link rel="stylesheet" class="buttons" href="css/buttons/skillbar.css" />
-
-  <link rel="stylesheet" class="sections" href="css/sections/main/section.css" />
-  <link rel="stylesheet" class="sections" href="css/sections/keyword.css" />
-  <link rel="stylesheet" class="sections" href="css/sections/about_me.css" />
-  <link rel="stylesheet" class="sections" href="css/sections/summary.css" />
-  <link rel="stylesheet" class="sections" href="css/sections/working_experience.css" />
-  <link rel="stylesheet" class="sections" href="css/sections/portfolio.css" />
-  <link rel="stylesheet" class="sections" href="css/sections/simple_introduce.css" />
-  <link rel="stylesheet" class="sections" href="css/sections/contact.css" />
-
-  <link rel="stylesheet" class="widget" href="css/widgets/timeline.css" />
-  <link rel="stylesheet" class="widget" href="css/widgets/card.css" />
-
-  <link rel="stylesheet" class="thximport"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
-  <script defer src="program/main.dart.js"></script>
+  <link rel="icon" href="pics/wing-right.ico" type="image/x-icon" />
+  <title>精翅財富顧問股份有限公司</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/other.css">
+  <link rel="stylesheet" href="css/textfield.css">
+  <link rel="stylesheet" href="css/font_size.css">
+  <link rel="stylesheet" href="css/section_size.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script defer src="main.dart.js"></script>
 </head>
 
-<body class="colormode-black" id="body">
-  <section id="left-floatingbuttons">
-    <button class="left-floatingbutton round right-panel" id="fYonndo">回頂部</button>
-    <button class="left-floatingbutton round right-panel" id="fabout_me">關於我</button>
-    <button class="left-floatingbutton round right-panel" id="fsummary">自傳</button>
-    <button class="left-floatingbutton round right-panel" id="fportfolio">個人資訊</button>
-    <button class="left-floatingbutton round right-panel" id="fworking_experience">工作經驗</button>
-    <button class="left-floatingbutton round right-panel" id="fcontact">聯絡方式</button>
-  </section>
-  <section id="yonndo-title">
-    <section class="" id="yonndo">
-      <div id="kawaii-logo"></div>
-      <h1>歡迎來到四度小窩</h1>
-    </section>
-    <section class="" id="text-switch">
-      <h3 style=>顏色模式</h3>
-      <label class="switch">
-        <input type="checkbox" id="colormode-switch">
-        <span class="slider round"></span>
-      </label>
-    </section>
-  </section>
+<body>
+  <div class="divider"></div>
+  <section>
+    <div class="form q1 animate__animated animate__fadeInLeft">
+      <form target="_self" method="post">
+        <fieldset class="form-content" id="part1">
+          <legend>人生ABC第一站</legend>
+          <div class="textfield">
+            <label class="title">請問今年幾歲:</label>
+            <input class="input" type="text" id="qAge">
+          </div>
+          <div class="textfield">
+            <label class="title">幾歲開始工作:</label>
+            <input class="input" type="text" id="qstart-working">
+          </div>
+          <div class="textfield">
+            <label
+              class="title">月薪:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input class="input" type="text" id="qSalary">
+          </div>
+          <div id="questionsubtitle1" class="subtitle">現在存錢，未來不用煩惱</div>
+        </fieldset>
+      </form>
+      <div style="display: flex; flex-direction: row; margin: 0% 0% 0% 3%;">
 
-  <section class="card" id="simple-introduce">
-  </section>
-
-  <section class="card" id="about-me">
-    <div class="card-title">關於我</div>
-    <section class="card-content" id="about-me-content">
-      <ul>
-        <li>
-          <label>中文姓名</label>
-          <span id="chinese-name"></span>
-        </li>
-        <li>
-          <label>英文姓名</label>
-          <span id="english-name"></span>
-        </li>
-        <li>
-          <label>性別</label>
-          <span id="sex"></span>
-        </li>
-        <li>
-          <label>生日</label>
-          <span id="birthday"></span>
-        </li>
-        <li>
-          <label>出生地</label>
-          <span id="place-of-birth"></span>
-        </li>
-        <li>
-          <label>地址</label>
-          <span id="address"></span>
-        </li>
-        <li>
-          <label>宗教</label>
-          <span id="religion"></span>
-        </li>
-      </ul>
-      <img id="self-picture" src="pic/selfpic.jpg" alt="個人照">
-    </section>
-  </section>
-
-  <section class="card" id="summary">
-    <div class="card-title">自傳</div>
-    <div class="card-content">
-      大家好!<br>
-      我喜歡與人交流互動，喜歡解決問題，面對失敗總思考著如何用不同的方法解決問題，也會詢問他人不同的解決方法。<br>
-      對新事物抱持著好奇與讚嘆，一但開始就會竭盡所能做到最好。<br>
-      活潑不怕生的個性，讓我在團體中擁有很好的號召力與渲染力，常扮演組長角色，在大學時也擔任了三年的班代，也經常選擇跨系課程，喜歡和不同領域的人交流分享，激盪出不一樣的火花。<br>
-      大學在指導教授的推薦下，開始了對於程式語言的探索，激發我對程式設計的熱情，擁有豐富查詢資料及將自己所學與人分享的經歷，樂於研究各個應用程式版面，參考不同程式的邏輯思維。<br>
-      目前仍就讀於龍華科技大學資訊網路工程系，在未來希望能夠協助品牌打造優美的使用者介面，並持續為自己累積更多Know-how，打磨自己成為更具備大局觀的成熟軟體工程師！<br>
-    </div>
-  </section>
-
-  <section class="card">
-    <div class="card-title">願景</div>
-    <div class="card-content" id="dream">
-
-    </div>
-  </section>
-
-  <section class="card" id="portfolio">
-    <div class="card-title">個人資訊</div>
-    <section class="card-content">
-      <div id="skills">
-        <div class="part-title">programming skills</div>
-        <div class="skillbar clearfix" id="dart" data-percent="80%">
-          <div class="skillbar-title">
-            <span>dart</span>
-          </div>
-          <div class="skillbar-bar" style="width: 80%;"></div>
-          <div class="skill-bar-percent">80%</div>
+        <div style="display: flex; flex-direction: column;">
+          <div id="aABC" style="word-break: keep-all;" class="point"></div>
+          <div id="aFinancialManagement" style="word-break: keep-all;" class="point"></div>
         </div>
-        <div class="skillbar clearfix" id="python" data-percent="60%">
-          <div class="skillbar-title">
-            <span>python</span>
-          </div>
-          <div class="skillbar-bar" style="width: 60%;"></div>
-          <div class="skill-bar-percent">60%</div>
-        </div>
-        <div class="part-title">designs skills</div>
-        <div class="skillbar clearfix" id="photoshop" data-percent="40%">
-          <div class="skillbar-title">
-            <span>photoshop</span>
-          </div>
-          <div class="skillbar-bar" style="width: 40%;"></div>
-          <div class="skill-bar-percent">40%</div>
-        </div>
-        <div class="part-title">office skills</div>
-        <div class="skillbar clearfix" id="msword" data-percent="60%">
-          <div class="skillbar-title">
-            <span>MS Word</span>
-          </div>
-          <div class="skillbar-bar" style="width: 60%;"></div>
-          <div class="skill-bar-percent">60%</div>
-        </div>
-        <div class="skillbar clearfix" id="msexcel" data-percent="70%">
-          <div class="skillbar-title">
-            <span>MS Excel</span>
-          </div>
-          <div class="skillbar-bar" style="width: 70%;"></div>
-          <div class="skill-bar-percent">70%</div>
-        </div>
-        <div class="skillbar clearfix" id="power-point" data-percent="70%">
-          <div class="skillbar-title">
-            <span>power point</span>
-          </div>
-          <div class="skillbar-bar" style="width: 70%;"></div>
-          <div class="skill-bar-percent">70%</div>
-        </div>
-        <div class="part-title">language skills</div>
-        <div class="skillbar clearfix" id="chinese" data-percent="95%">
-          <div class="skillbar-title">
-            <span>chinese</span>
-          </div>
-          <div class="skillbar-bar" style="width: 95%;"></div>
-          <div class="skill-bar-percent">95%</div>
-        </div>
-        <div class="skillbar clearfix" id="japanese" data-percent="50%">
-          <div class="skillbar-title">
-            <span>japanese</span>
-          </div>
-          <div class="skillbar-bar" style="width: 50%;"></div>
-          <div class="skill-bar-percent">50%</div>
-        </div>
-        <div class="skillbar clearfix" id="english" data-percent="15%">
-          <div class="skillbar-title">
-            <span>english</span>
-          </div>
-          <div class="skillbar-bar" style="width: 20%;"></div>
-          <div class="skill-bar-percent">20%</div>
-        </div>
-        <div class="skillbar clearfix" id="vietnamese" data-percent="10%">
-          <div class="skillbar-title">
-            <span>vietnamese</span>
-          </div>
-          <div class="skillbar-bar" style="width: 10%;"></div>
-          <div class="skill-bar-percent">10%</div>
-        </div>
-      </div>
-      <dl id="collections">
-        <dt class="part-title">證照</dt>
-        <dd style="position: relative; left: 8px;">日本語能力認證(N3)</dd>
-        <dd style="position: relative; left: 8px;">TOIEC(375)</dd>
-        <dd style="position: relative; left: 8px;">物聯網應用工程師-初級</dd>
-        <dd style="position: relative; left: 8px;">Microsoft Technology Associate:Networking Fundamentals</dd>
-        <dt class="part-title">專案與、作品集與比賽</dt>
-        <dd style="position: relative; left: 8px;">108學年度全國高級中等學校工業電子 優勝第22名</dd>
-        <dt class="part-title">學歷</dt>
-        <dd style="position: relative; left: 8px;">龍潭高級中等學校</dd>
-      </dl>
-    </section>
-  </section>
-
-  <section class="card" id="working-experience">
-    <div class="card-title">工作經驗</div>
-    <div class="card-content timeline">
-      <div class="time-container timeline-left">
-        <div class="time-content">
-          <h2>2023</h2>
-          <p>職業軍人服役完畢</p>
-        </div>
-      </div>
-      <div class="time-container timeline-right">
-        <div class="time-content">
-          <h2>2023~2020</h2>
-          <p>龍華資訊網路工程系工讀</p>
-          <p>文書處理/協助同學</p>
-        </div>
-      </div>
-      <div class="time-container timeline-left">
-        <div class="time-content">
-          <h2>2021~2019</h2>
-          <p>夜市擺攤</p>
-          <p>與客戶溝通能力</p>
-        </div>
-      </div>
-      <div class="time-container timeline-right">
-        <div class="time-content">
-          <h2>2019~2017</h2>
-          <p>甘蔗工廠工作</p>
-          <p></p>
-        </div>
-      </div>
-      <div class="time-container timeline-left">
-        <div class="time-content">
-          <h2>2017~2015</h2>
-          <p>每個暑假與農夫種田</p>
-          <p>工作初探/磨練毅力</p>
-        </div>
+        <div id="rule136-contentin1" class="point-136"></div>
       </div>
     </div>
-  </section>
-
-  <section class="card" id="working-experience-share">
-    <div class="card-title">工作心得</div>
-    <div class="card-content" id="working-experience-content">
-      在工作經歷中，各個都是不同領域的工作內容，所以有著各式各樣的經驗與成長。<br>
-      因為被<b>日本職人</b>的那份堅持所吸引，所以無論是做什麼工作都不斷的培養對工作的匠人精神。<br>
-      而這些經驗是其他人無法取得的珍貴寶藏，會這樣描述的原因是因為工作中其實都不是順順利利的，
-      各式各樣的酸甜苦辣都經歷過，所以回憶時除了喜悅更多的是感謝，<br>
-      感謝農田讓我知道「粒粒皆辛苦」，<br>
-      感謝工廠讓我知道「一步一腳印」，<br>
-      感謝夜市讓我知道「商人的技巧」，<br>
-      感謝系上讓我知道「職場初樣貌」，<br>
-      感謝軍營讓我知道「十二個要項」，<br>
-      在未來的職場勢必能夠派上用場，即便能力不是最頂尖的，但仍有能夠和他人分享的能力。
+    <div class="form q2 animate__animated animate__fadeInRight" style="display: flex;flex-direction: column;">
+      <form target="_self" method="post">
+        <fieldset class="form-content" id="part2">
+          <legend>人生ABC第二站</legend>
+          <div class="textfield">
+            <label class="title">想要幾歲退休:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input class="input" type="text" id="qRetire">
+          </div>
+          <div class="textfield">
+            <label class="title">幾歲跟上帝喝咖啡:</label>
+            <input class="input" type="text" id="qPassed-Away">
+          </div>
+          <div id="questionsubtitle2" class="subtitle">存款不只是儲蓄，更是未來的自由</div>
+        </fieldset>
+      </form>
+      <div class="point">*依內政部110年統計國民平均壽命為81歲<br> 男性78歲 女性84歲</div>
+      <!-- <div id="rule136-contentin1"></div> -->
     </div>
   </section>
-
-  <section class="card" id="contact">
-    <div class="card-title">聯繫方式</div>
-    <div class="card-content">
-      <div id="contact-way">
-        <div class="part-title">聯繫管道</div>
-        <ul>
-          <li>
-            <label>電子信箱</label>
-            <span id="email"></span>
-          </li>
-          <li>
-            <label>電話號碼</label>
-            <span id="phone-number"></span>
-          </li>
-          <li>
-            <label>網站</label>
-            <span id="web"></span>
-          </li>
-          <li>
-            <label>Line</label>
-            <span id="line"></span>
-          </li>
-        </ul>
-
-      </div>
-      <div id="contact-intstant">
-        <form target="_self" action="/index.html" id="testform" style="margin-bottom: 2%;">
-          <fieldset>
-            <legend>回饋:</legend>
-            <label for="uname">姓名:</label>
-            <input type="text" id="uname" name="uname" required style="padding: 0% 10% 0%;"><br><br>
-            <label for="email">信箱:</label>
-            <input type="email" id="email" name="uemail" required style="padding: 0% 10% 0%;"><br><br>
-            <label for="email">留言:</label>
-            <textarea type="text" class="contact-intstant" id="umessage" name="umessage" required rows="10"
-              placeholder="內容..."></textarea>
-            <input type="submit" id="contact-intstant-submit">
-          </fieldset>
-        </form>
+  <div id="dividersp" class="animate__animated animate__fadeInUpBig" style="display: flex; flex-direction: row;">
+    <div style="display: flex; flex-direction: row; width: 90%;">
+      <div id="rule136-content" style="padding: 0% 0% 0% 3%;"></div>
+      <img src="pics/wing-left.png" id="wing-left" class="watermark">
+      <img src="pics/wing-right.png" id="wing-right" class="watermark">
+    </div>
+  </div>
+  <section>
+    <div class="form q3 animate__animated animate__fadeInLeft" style="display: flex;flex-direction: column;">
+      <div style="height: 20px;"></div>
+      <form class="" target="_self" method="post" style="margin-bottom: 2%;">
+        <fieldset class="form-content">
+          <legend>人生ABC第三站</legend>
+          <div class="textfield">
+            <label class="title">退休想要一個月花:</label>
+            <input class="input" type="text" id="qRetireBudget">
+          </div>
+          <div class="textfield">
+            <label
+              class="title">方案:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select id="qPlan">
+              <option value="0"></option>
+              <option value="6000">每個月要存6000</option>
+              <option value="12000">每個月要存12000</option>
+              <option value="18000">每個月要存18000</option>
+              <option value="24000">每個月要存24000</option>
+            </select>
+          </div>
+        </fieldset>
+      </form>
+      <div class="point">
+        *填寫退休月花並選擇方案可至第四站看規劃表<br>
+        *人最怕的不是錢還沒花完人就走了<br>
+        &nbsp;&nbsp;更可怕的事情是錢花完了人還沒走
       </div>
     </div>
+    <div class="form q4 animate__animated animate__fadeInRight">
+      <fieldset class="form-content" style="border-color: transparent;">
+        <legend>人生ABC第四站-退休規劃試算表</legend>
+        <table style="width: 90%; height: 80%; margin: 5%;">
+          <tr>
+            <td></td>
+            <td>一般</td>
+            <td>國磐</td>
+          </tr>
+          <tr>
+            <td>退休月花</td>
+            <td id="aRetireBudget"></td>
+            <td id="aRetiredBudgetPerDay"></td>
+          </tr>
+          <tr>
+            <td>每月月存</td>
+            <td id="aSavePerMonth"></td>
+            <td id="planselected"></td>
+          </tr>
+          <tr>
+            <td>要存幾年本金</td>
+            <td id="aWorkingAge"></td>
+            <td id="aWorkingYears"></td>
+          </tr>
+          <tr>
+            <td>剩多少</td>
+            <td id="aLave"></td>
+            <td id="aTotalSaved"></td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
   </section>
-
-  <footer>
-    <p>© 陳永勳</p>
+  <div class="divider"></div>
+  <div id="text-answer" class="point" style="margin:0% 5%;">
+  </div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <footer style="background-color: black; color: white;">
+    <div style="margin: 0% 0% 0% 3%;">僅限精翅團隊使用</div>
+    <div style="margin: 0% 0% 0% 3%;">精翅財富顧問股份有限公司</div>
+    <div style="margin: 0% 0% 0% 3%;">負責人：莊松峰</div>
+    <div style="margin: 0% 0% 0% 3%;">© 陳永勳,顏進宏</div>
   </footer>
-
-  <script type="module" src="./program/contact.js"></script>
 </body>
 
 </html>

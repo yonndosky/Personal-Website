@@ -1,0 +1,543 @@
+@media screen and (min-width: 3440px) {
+    .qPlan {
+        font-size: 2.0rem;
+    }
+
+    .textfield .title {
+        font-size: 2.2rem;
+    }
+
+    .textfield .input {
+        font-size: 2.0rem;
+    }
+
+    legend {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 2.6rem;
+    }
+
+    table {
+        font-size: 3rem;
+    }
+
+    .point {
+        font-size: 2.2rem;
+    }
+
+    footer {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 3440px) {
+    .textfield .title {
+        font-size: 1.9rem;
+    }
+
+    .textfield .input {
+        font-size: 1.7rem;
+    }
+
+    .qPlan {
+        font-size: 1.9rem;
+    }
+
+    legend {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 2.1rem;
+    }
+
+    table {
+        font-size: 2rem;
+    }
+
+    .point {
+        font-size: 1.9rem;
+    }
+
+    footer {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .textfield .title {
+        font-size: 1.7rem;
+    }
+
+    .textfield .input {
+        font-size: 1.5rem;
+    }
+
+    .qPlan {
+        font-size: 1.5rem;
+    }
+
+    legend {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 2.1rem;
+    }
+
+    table {
+        font-size: 2rem;
+    }
+
+    .point {
+        font-size: 1.7rem;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .textfield .title {
+        font-size: 1.6rem;
+    }
+
+    .textfield .input {
+        font-size: 1.4rem;
+    }
+
+    .qPlan {
+        font-size: 1.4rem;
+    }
+
+    legend {
+        font-size: 1.7rem;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+
+    table {
+        font-size: 1.7rem;
+    }
+
+    .point {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .textfield .title {
+        font-size: 1.4rem;
+    }
+
+    .textfield .input {
+        font-size: 1.2rem;
+    }
+
+    .qPlan {
+        font-size: 1.2rem;
+    }
+
+    legend {
+        font-size: 1.65rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    table {
+        font-size: 1.65rem;
+    }
+
+    .point {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .textfield .title {
+        font-size: 1.4rem;
+    }
+
+    .textfield .input {
+        font-size: 1.2rem;
+    }
+
+    .qPlan {
+        font-size: 1.2rem;
+    }
+
+    legend {
+        font-size: 1.6rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    table {
+        font-size: 1.6rem;
+    }
+
+    .point {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .textfield .title {
+        font-size: 1.4rem;
+    }
+
+    .textfield .input {
+        font-size: 1.2rem;
+    }
+
+    .qPlan {
+        font-size: 1.2rem;
+    }
+
+    legend {
+        font-size: 1.55rem;
+    }
+
+    .subtitle {
+        font-size: 1.15rem;
+    }
+
+    table {
+        font-size: 1.55rem;
+    }
+
+    .point {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .textfield .title {
+        font-size: 1.2rem;
+    }
+
+    .textfield .input {
+        font-size: 1.0rem;
+    }
+
+    .qPlan {
+        font-size: 1.0rem;
+    }
+
+    legend {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    table {
+        font-size: 1.4rem;
+    }
+
+    .point {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .textfield .title {
+        font-size: 1.2rem;
+    }
+
+    .textfield .input {
+        font-size: 1.0rem;
+    }
+
+    .qPlan {
+        font-size: 1.0rem;
+    }
+
+    legend {
+        font-size: 1.45rem;
+    }
+
+    .subtitle {
+        font-size: 1.05rem;
+    }
+
+    table {
+        font-size: 1.25rem;
+    }
+
+    .point {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textfield .title {
+        font-size: 1.4rem;
+    }
+
+    .textfield .input {
+        font-size: 1.2rem;
+    }
+
+    .qPlan {
+        font-size: 1.2rem;
+    }
+
+    legend {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    table {
+        font-size: 1.65rem;
+    }
+
+    .point {
+        font-size: 1.4rem;
+    }
+
+    .point-136 {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textfield .title {
+        font-size: 1.3rem;
+    }
+
+    .textfield .input {
+        font-size: 1.1rem;
+    }
+
+    .qPlan {
+        font-size: 1.1rem;
+    }
+
+    legend {
+        font-size: 1.65rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    table {
+        font-size: 1.5rem;
+    }
+
+    .point {
+        font-size: 1.3rem;
+    }
+
+    .point-136 {
+        font-size:0.9rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .textfield .title {
+        font-size: 1.3rem;
+    }
+
+    .textfield .input {
+        font-size: 1.1rem;
+    }
+
+    .qPlan {
+        font-size: 1.1rem;
+    }
+
+    legend {
+        font-size: 1.4rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    table {
+        font-size: 1.35rem;
+    }
+
+    .point {
+        font-size: 1.3rem;
+    }
+
+    .point-136 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .textfield .title {
+        font-size: 0.9rem;
+    }
+
+    .textfield .input {
+        font-size: 0.9rem;
+    }
+
+    .qPlan {
+        font-size: 0.9rem;
+    }
+
+    legend {
+        font-size: 1rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    table {
+        font-size: 1rem;
+    }
+
+    .point {
+        font-size: 0.9rem;
+    }
+
+    .point-136 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .textfield .title {
+        font-size: 0.8rem;
+    }
+
+    .textfield .input {
+        font-size: 0.8rem;
+    }
+
+    .qPlan {
+        font-size: 0.8rem;
+    }
+
+    legend {
+        font-size: 1rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    table {
+        font-size: 1rem;
+    }
+
+    .point {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .textfield .title {
+        font-size: 0.8rem;
+    }
+
+    .textfield .input {
+        font-size: 0.8rem;
+    }
+
+    .qPlan {
+        font-size: 0.9rem;
+    }
+
+    legend {
+        font-size: 0.8rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    .point {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .textfield .title {
+        font-size: 0.8rem;
+    }
+
+    .textfield .input {
+        font-size: 0.8rem;
+    }
+
+    .qPlan {
+        font-size: 0.8rem;
+    }
+
+    legend {
+        font-size: 0.8rem;
+    }
+
+    .subtitle {
+        font-size: 0.7rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    .point {
+        font-size: 0.7rem;
+    }
+
+    .point-136 {
+        font-size: 0.8rem;
+    }
+}

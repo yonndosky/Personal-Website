@@ -1,0 +1,44 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+.divider {
+    height: 50px;
+}
+
+
+
+#questionsubtitle1 {
+    position: absolute;
+    color: black;
+    background: antiquewhite;
+    cursor: pointer;
+}
+
+#questionsubtitle2 {
+    position: absolute;
+    color: black;
+    background: antiquewhite;
+    cursor: pointer;
+}
+
+legend {
+    margin: 0 auto;
+}
+
+.watermark {
+    opacity: 0.4;
+    position: absolute;
+    aspect-ratio: 1204/1650;
+    height: 100px;
+}
+.point
+{
+    margin: 1% 2%;
+}

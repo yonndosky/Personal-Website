@@ -1,0 +1,42 @@
+.form {
+    width: 90%;
+    background-color: antiquewhite;
+}
+
+.form-content {
+    margin: 3%;
+    padding: 0% 0% 5% 0%;
+}
+
+#qPlan {
+    width: 38%;
+}
+
+
+@media screen and (min-width: 769px) {
+    #rule136-contentin1 {
+        height: 0px;
+    }
+
+    .form.q1 {
+        border-radius: 10% 0% 0% 0%;
+    }
+
+    .form.q2 {
+        border-radius: 0% 10% 0% 0%;
+    }
+
+    .form.q3 {
+        border-radius: 0% 0% 0% 10%;
+    }
+
+    .form.q4 {
+        border-radius: 0% 0% 10% 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form{
+        border-radius: 2%;
+    }
+}
