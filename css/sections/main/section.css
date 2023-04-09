@@ -11,10 +11,9 @@
 
 
 #big-screen {
-    background-image: url("../../../pic/naturewithword.png");
+    background-image: url("../../../pic/20230122_145224.png");
     background-size: cover;
-    aspect-ratio: 5216/2521;
-    background-color: rgba(0, 0, 0, .4);
+    aspect-ratio: 3730/2042;
     background-blend-mode: multiply;
     overflow: hidden;
     border-radius: 5px;
